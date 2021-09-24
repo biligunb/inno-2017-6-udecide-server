@@ -1,0 +1,16 @@
+{
+    "facebook-login": {
+        "provider": "facebook",
+        "module": "passport-facebook",
+        "clientID": "155430168374674",
+        "clientSecret": "62c4b4a51e6b77ed2772ddd9d4dbaeba",
+        "callbackURL": "/auth/facebook/callback",
+        "authPath": "/auth/facebook",
+        "callbackPath": "/auth/facebook/callback",
+        "successRedirect": "https://www.google.mn",
+        "failureRedirect": "https://www.google.ru",
+        "scope": ["email"],
+        "profileFields": ["gender", "link", "locale", "name", "timezone", "verified", "email", "updated_time"],
+        "failureFlash": true
+    }
+}

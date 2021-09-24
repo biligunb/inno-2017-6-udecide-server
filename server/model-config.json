@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models",
+      "./node_modules/loopback-component-passport/lib/models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "mysqlDS",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mysqlDS",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mysqlDS",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mysqlDS",
+    "public": false
+  },
+  "Group": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Information": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "LocationAddress": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "LocationCoordinate": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "MtbBusinessCategory": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "MtbRating": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "UserBusiness": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "UserGroup": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "UserCredential": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "UserIdentity": {
+    "dataSource": "mysqlDS",
+    "public": true
+  }
+}

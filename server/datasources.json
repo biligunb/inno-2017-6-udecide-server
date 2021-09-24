@@ -1,0 +1,12 @@
+{
+  "mysqlDS": {
+    "host": "mysql-udecide.clw5mcf9dstb.ap-northeast-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "udecide",
+    "password": "password",
+    "name": "mysqlDS",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
